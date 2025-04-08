@@ -4,9 +4,9 @@
   "description": "Веб-приложение для распознавания речи и фонетического анализа",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production",
-    "dev": "webpack serve --mode development",
+    "start": "cd speech-analyzer && webpack serve --mode development --open",
+    "build": "cd speech-analyzer && webpack --mode production",
+    "dev": "cd speech-analyzer && webpack serve --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
